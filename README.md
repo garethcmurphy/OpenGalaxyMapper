@@ -20,22 +20,22 @@ Follow these steps to set up the development environment:
 
 1. **Clone the repository:**
 
-    ```sh
-    git clone https://github.com/your/repository.git
-    cd repository
-    ```
+   ```sh
+   git clone https://github.com/your/repository.git
+   cd repository
+   ```
 
 2. **Build the project:**
 
-    ```sh
-    make
-    ```
+   ```sh
+   make
+   ```
 
 3. **Run the project:**
 
-    ```sh
-    ./run.sh
-    ```
+   ```sh
+   ./run.sh
+   ```
 
 ### Running the tests
 
@@ -43,15 +43,15 @@ To run the automated tests for this system, follow these steps:
 
 1. **Build the test binaries:**
 
-    ```sh
-    make test
-    ```
+   ```sh
+   make test
+   ```
 
 2. **Run the tests:**
 
-    ```sh
-    ./bin/test_binary
-    ```
+   ```sh
+   ./bin/test_binary
+   ```
 
 ### Coding style tests
 
@@ -67,15 +67,15 @@ To deploy this project on a live system, follow these steps:
 
 1. **Build the project:**
 
-    ```sh
-    make
-    ```
+   ```sh
+   make
+   ```
 
 2. **Run the project using MPI:**
 
-    ```sh
-    mpirun -np <number_of_processes> ./bin/a.out
-    ```
+   ```sh
+   mpirun -np <number_of_processes> ./bin/a.out
+   ```
 
 ## Contributing
 
@@ -87,15 +87,8 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc

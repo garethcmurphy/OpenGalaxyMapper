@@ -1,4 +1,4 @@
-#include <dirk.h>
+#include <headers.h>
 /*
 how to determine the Extinction from the output files from the star counting
 */
