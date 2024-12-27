@@ -3,7 +3,7 @@
 #export CC = g++
 export MPICH_CCC = icpc
 export MPICH_CCLINKER = icpc
-export CC = mpicxx
+export CC = g++
 INCLUDEDIR = ../include/ 
 MPIDIR = /usr/local/mpich-1.2.5-intelcomp/include/
 #GCC C Compiler Flags
