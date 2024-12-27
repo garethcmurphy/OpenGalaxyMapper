@@ -1,6 +1,10 @@
 # Galactic Plane Map
 
-Mapping dust extinction in the Galactic Plane
+Welcome to the Galactic Plane Mapper, a project designed to uncover the secrets of the Galactic Plane. Using the Wolf Technique of Star Counts, we look into the interplay of starlight and interstellar dust to create detailed extinction maps of the galaxy!
+
+## 🌠 Introduction
+
+The Galactic Plane is a dense and mysterious region of our Milky Way, where vast dust clouds obscure stars from view. By applying the Wolf Technique of Star Counts, this project estimates dust extinction by measuring the diminishing light of stars across different regions. This method enables astronomers to map interstellar dust clouds with unparalleled precision.
 
 ## Getting Started
 
