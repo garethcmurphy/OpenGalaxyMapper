@@ -1,4 +1,5 @@
 # Galactic Plane Map
+
 Mapping dust extinction in the Galactic Plane
 
 ## Getting Started
@@ -9,7 +10,7 @@ These instructions will help you get a copy of the project up and running on you
 
 You will need the following software installed on your system:
 
-- g++/icpc
+- g++
 - make
 - MPI (Message Passing Interface)
 

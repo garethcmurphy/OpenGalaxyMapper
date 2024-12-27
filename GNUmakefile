@@ -4,8 +4,8 @@
 export MPICH_CCC = icpc
 export MPICH_CCLINKER = icpc
 export CC = g++
-INCLUDEDIR = ../include/ 
-MPIDIR = /usr/local/mpich-1.2.5-intelcomp/include/
+INCLUDEDIR = ../include/  
+MPIDIR = /opt/homebrew/include/
 #GCC C Compiler Flags
 #export CFLAGS =-pg  -Wall -I$(INCLUDEDIR)  -I/usr/include/g++-3/
 #export LDFLAGS = -lm 
@@ -14,8 +14,8 @@ MPIDIR = /usr/local/mpich-1.2.5-intelcomp/include/
 #export LDFLAGS = -i_dynamic -g -O3 -unroll -tpp7 -axW -xW
 
 #export CFLAGS = -I$(INCLUDEDIR) -I$(MPIDIR) -w -c -g
-export CFLAGS = -I$(INCLUDEDIR)  -w -c -g -I/usr/local/opt/intel_cc_81/include/c++
-export LDFLAGS = -g 
+export CFLAGS = -I$(INCLUDEDIR)  -w -c -g -I$(MPIDIR)
+export LDFLAGS = -g -L/opt/homebrew/lib -lmpi 
 all:
 	$(MAKE) -C src
 write_params:
