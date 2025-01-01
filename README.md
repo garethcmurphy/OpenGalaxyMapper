@@ -1,5 +1,7 @@
 # Galactic Plane Map
 
+![](galaticplane.png)
+
 Welcome to the Galactic Plane Mapper, a project designed to uncover the secrets of the Galactic Plane. Using the Wolf Technique of Star Counts, we look into the interplay of starlight and interstellar dust to create detailed extinction maps of the galaxy!
 
 ## 🌠 Introduction
